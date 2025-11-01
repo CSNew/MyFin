@@ -1,1 +1,18 @@
-<div id="root"></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <!-- สำคัญ: ตั้งค่า Viewport สำหรับ Mobile-First Design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFin - Personal Finance Tracker</title>
+</head>
+<body>
+    <!-- ตำแหน่งหลักที่ React จะ Render แอปพลิเคชัน -->
+    <div id="root"></div> 
+    
+    <!-- การเชื่อมโยงไปยัง Entry Point ของ React (ต้องใช้ type="module") -->
+    <!-- Vite จะหาไฟล์ src/index.js (หรือ main.jsx) โดยอัตโนมัติ -->
+    <script type="module" src="/src/index.js"></script> 
+</body>
+</html>
